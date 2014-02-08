@@ -7,12 +7,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-    <div class="navbar navbar-fixed-top">
+  <div class="navbar navbar-fixed-top">
     	<div class="navbar-inner">
     		<div class="container">
     			 <a href="#"class="brand" > Artful Poets </a>
     			 <ul class="nav">
-    				  <li><%= link_to "Home", feed_path %></li>
+    				  <li><%= link_to "Statuses", feed_path %></li>
            </ul>
            <ul class="nav pull-right">
              <% if user_signed_in? %>

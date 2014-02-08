@@ -169,7 +169,7 @@ textarea {
   vertical-align: top;
 }
 
-@media print {
+media print {
   * {
     color: #000 !important;
     text-shadow: none !important;
@@ -4021,7 +4021,7 @@ input[type="submit"].btn.btn-mini {
   margin: 9px 1px;
   *margin: -5px 0 5px;
   overflow: hidden;
-  background-color: #e5e5e5;
+  background-color: #008000;
   border-bottom: 1px solid #ffffff;
 }
 
@@ -4374,12 +4374,21 @@ input[type="submit"].btn.btn-mini {
   padding-right: 20px;
   padding-left: 20px;
   background-color: #fafafa;
-  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
-  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
-  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  background-image: -moz-linear-gradient(top, #ffffff, #006600);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#006600));
+  background-image: -webkit-linear-gradient(top, #ffffff, #006600);
+  background-image: -o-linear-gradient(top, #ffffff, #006600);
+  background-image: linear-gradient(to bottom, #ffffff, #006600);
   background-repeat: repeat-x;
+
+//background-color: #fafafa;
+//  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+//  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+//  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+//  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+//  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+//  background-repeat: repeat-x;
+
   border: 1px solid #d4d4d4;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
